@@ -1,11 +1,12 @@
 body {
   color: #333;
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Arial;
   font-size: 16px;
   margin: 0;
   padding: 0;
 }
+
 #cabecera {
   background: #33a;
   box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.5);
@@ -21,14 +22,11 @@ body {
 }
 #container {
   width: 70%;
-  padding: 0;
+  padding: 1em;
   text-align: left;
   border: 1px solid #ddd;
   margin: 0 auto;
 }
 #container h1 {
   font-size: 20px;
-}
-#post {
-  padding: 1em;
 }
